@@ -1,0 +1,31 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v2",
+        "update_url": null
+    },
+    "exported_at": "2024-07-17T12:48:08+02:00",
+    "name": "Gleam",
+    "author": "Cyteon",
+    "description": "A egg for the gleam programming language",
+    "features": null,
+    "docker_images": {
+        "ghcr.io\/cyteon\/yolks\/gleam:1.3.1": "ghcr.io\/cyteon\/yolks\/gleam:1.3.1"
+    },
+    "file_denylist": [],
+    "startup": "gleam run",
+    "config": {
+        "files": "{\r\n    \r\n}",
+        "startup": "{\r\n   \r\n}",
+        "logs": "{\r\n    \r\n}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "echo \"OK\"",
+            "container": "alpine:3.4",
+            "entrypoint": "ash"
+        }
+    },
+    "variables": []
+}
